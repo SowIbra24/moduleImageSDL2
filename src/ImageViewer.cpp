@@ -4,7 +4,7 @@
 #include <iostream>
 #include <SDL2/SDL_image.h>
 #include "Image.h"
-#define DIMW 200 // si vous le mettez à 500, c'est cool
+#define DIMW 500 // si vous le mettez à 500, c'est cool
 
 using namespace std;
 
