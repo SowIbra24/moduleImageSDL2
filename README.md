@@ -2,6 +2,8 @@
 
 Ce module Image utilise une version très simple de SDL2 pour afficher une image dans une fenêtre SDL.
 
+![Logo de SDL](https://www.libsdl.org/media/SDL_logo.png)
+
 Il fonctionne avec une structure pixel, une classe Image et une classe ImageViewer.
 
 La documentation est déjà générée exceptionnellement et se trouve dans le dossier doc. Vous pouvez ouvrir le fichier index.html dans le dossier doc/html pour lire et comprendre la documentation.
