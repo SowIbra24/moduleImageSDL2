@@ -1,4 +1,4 @@
-moduleImageSDL2
+#moduleImageSDL2
 
 Ce module Image utilise une version très simple de SDL2 pour afficher une image dans une fenêtre SDL.
 
@@ -6,33 +6,36 @@ Il fonctionne avec une structure pixel, une classe Image et une classe ImageView
 
 La documentation est déjà générée exceptionnellement et se trouve dans le dossier doc. Vous pouvez ouvrir le fichier index.html dans le dossier doc/html pour lire et comprendre la documentation.
 
-Compilation
+##Compilation
 
 Pour compiler ce projet, vous aurez besoin d'un terminal Linux et de cmake.
 
 Placez-vous à la racine du projet et tapez les instructions suivantes dans le terminal :
 
+```sh
 cd build
 cmake ..
 make
-
-Les exécutables
+```
+##Les exécutables
 
 Il y aura dans le dossier bin trois exécutables après la compilation :
 
-    affichage : affiche l'image passée en paramètre.
-    test : exécute le test de régression et enregistre une image.
-    exemple : fournit un exemple en enregistrant deux images.
+    -affichage : affiche l'image passée en paramètre.
+    -test : exécute le test de régression et enregistre une image.
+    -exemple : fournit un exemple en enregistrant deux images.
     
-Exécution principale
+##Exécution principale
 
 Une fois les instructions de compilation terminées, vous pouvez exécuter le programme comme suit :
 
 Placez-vous à la racine du projet et tapez la commande suivante :
 
+```sh
 bin/affichage
+```
 
-Rendu
+##Rendu
 
 Une fenêtre SDL s'ouvre avec une image représentant des anneaux olympiques carrés.
 
